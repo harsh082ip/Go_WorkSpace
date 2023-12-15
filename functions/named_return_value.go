@@ -22,4 +22,7 @@ func print_demo() {
 
 func main() {
 	print_demo()
+	// name := "harsh"
+	// name = "Ankita"
+	// fmt.Println(name)
 }
