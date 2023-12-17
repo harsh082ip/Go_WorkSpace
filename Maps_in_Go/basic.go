@@ -37,4 +37,11 @@ func main() {
 		"id": 234323,
 	}
 	fmt.Println(m)
+
+	// val will store value of key(if present) otherwise default value specified for
+	// mp while declaring (here it is int)
+	// ok will store true or false depending upon availability of value for the specified key
+	val, ok := mp["harsh"]
+	fmt.Println(val, ok) // 0 false
+
 }
